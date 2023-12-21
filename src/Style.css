@@ -1,0 +1,55 @@
+::placeholder{
+    text-align: center;
+    color: gray;
+}
+
+input{
+    width: 575px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    height:32px;
+    
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 27px;
+   
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 27px; /* Adjust the left position based on your design */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8d8585; /* Adjust the color based on your design */
+    cursor: pointer;
+    margin-top: 88px;
+  }
+  
+  .search-input {
+    padding-left: 37px; /* Adjust this value based on the icon size and positioning */
+    width:600px;
+    height:35px;
+    border-radius: 15px;
+    border:1px solid #afabab;
+    margin-top: 175px;
+    font-style:italic;
+    
+  }
+
+ .card-mt{
+  margin-top: 66px;
+ }
+ .col{
+  margin-top: 66px !important;
+ }
+  
+.card-img-top{
+  margin: 15px 0px 0px 0px !important;
+  padding:5px 14px 5px 14px  !important;
+  height: 120px !important;
+  width:200px !important;
+ }
+
